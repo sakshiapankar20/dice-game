@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎲 Funny Dice Duel</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎲 Funny Dice Duel</h1>
+    <div class="players">
+      <div id="player1" class="player active">
+        <h2>👩 Player 1</h2>
+        <p>Score: <span id="score1">0</span></p>
+        <div class="dice" id="dice1">🎲</div>
+      </div>
+      <div id="player2" class="player">
+        <h2>🧑 Player 2</h2>
+        <p>Score: <span id="score2">0</span></p>
+        <div class="dice" id="dice2">🎲</div>
+      </div>
+    </div>
+    <button id="rollBtn">🎲 Roll Dice</button>
+    <h3 id="message">Let the game begin!</h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+npx live-server -->
